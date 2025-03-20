@@ -217,6 +217,10 @@ IAM 정책 예시:
 3. **Lambda 함수 오류**
    - CloudWatch Logs에서 오류 메시지 확인
    - requests 라이브러리 레이어가 올바르게 추가되었는지 확인
+  
+4. **Lambda 함수 Timeout**
+   - CloudWatch Logs에서 오류 메시지 확인
+   - slack_invitor_invite_all 함수는 워크스페이스에 참여 인원이 많은 경우, 기본 타임아웃 제한을 넘길 수 있습니다. 타임아웃을 늘려서 해결하실 수 있습니다.
 
 ## 라이선스
 
